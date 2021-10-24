@@ -4,6 +4,11 @@ public class CTHoaDonXuat {
     //Khai báo thuộc tính
     private String ctHDX,maHD,maNuocHoa;
     private int soLuong;
+
+    public CTHoaDonXuat() {
+
+    }
+
     //Hàm toString phục vụ việc đọc ghi file,các thuộc tính cách nhau bới dấu #
     @Override
     public String toString() {

@@ -3,6 +3,11 @@ package com.company.Entities;
 public class HoaDonNhap {
     //Khai báo thuộc tính
     private String maHDN, maKho,tenNCC,diaChiNCC, SDT,ngayNhap,maNV;
+
+    public HoaDonNhap() {
+
+    }
+
     //Hàm toString phục vụ việc đọc ghi file,các thuộc tính cách nhau bới dấu #
     @Override
     public String toString() {

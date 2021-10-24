@@ -5,6 +5,12 @@ public class KhachHang {
     private String maKH,hoTen,diaChi,sDT,cMND;
     private int soLanGheTham;
     private int capDo;
+
+    public KhachHang() {
+        this.soLanGheTham = 0;
+        this.capDo = 0;
+    }
+
     //Hàm set/get
     public String getMaKH() {
         return maKH;
